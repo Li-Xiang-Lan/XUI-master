@@ -1,0 +1,198 @@
+<resources>
+    <string name="app_name">XUIDemo</string>
+    <!--华文行楷字体路径，其实可以不设置-->
+    <!--<string name="default_app_font_path">fonts/hwxk.ttf</string>-->
+
+    <string name="style_default">默认样式</string>
+    <string name="style_md_ios">Material Design &#038; iOS Style</string>
+
+    <string name="lab_please_select">请选择</string>
+    <string name="tip_number_only_error_message">数字必须大于0小于100!</string>
+    <string name="regexp_number_only">^[1-9]?\\d$</string>
+
+    <string name="common_example">示例图片</string>
+
+    <string name="about_item_homepage">访问官网</string>
+    <string name="about_item_github">GitHub</string>
+    <string name="about_copyright">© %1$s xuexiangjys All rights reserved.</string>
+
+    <!--ExpandableTextView-->
+    <string name="etv_content_demo1">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</string>
+
+    <!--ShadowButton-->
+    <string name="t5">RippleShadowShadowButton\n
+                app:sb_ripple_color=\"#eeeeee\"\n
+                app:sb_ripple_duration=\"500\"\n
+                app:sb_shape_type=\"round\"\n
+                app:sb_color_unpressed=\"#f44336\"\n
+    </string>
+    <string name="t4">RippleShadowShadowButton\n
+                app:sb_ripple_color=\"#8a87ee\"\n
+                app:sb_ripple_duration=\"500\"\n
+                app:sb_shape_type=\"rectangle\"\n
+                app:sb_color_unpressed=\"#f44336\"</string>
+    <string name="t3">ShadowImageView\n
+                app:sb_shape_type=\"round\"</string>
+    <string name="t2">ShadowButton\n
+                app:sb_shape_type=\"round\"</string>
+    <string name="t1">ShadowButton\n
+                app:sb_radius=\"6dp\"</string>
+    <string name="t0">ShadowButton\n
+                app:sb_alpha_pressed=\"40\"\n
+                app:sb_color_pressed=\"#0303ff\"\n
+                app:sb_color_unpressed=\"#8aacee\"</string>
+
+    <!--MaterialDialog-->
+    <string name="tip_bluetooth_permission">是否允许打开蓝牙？</string>
+    <string name="lab_yes">是</string>
+    <string name="lab_no">否</string>
+    <string name="tip_infos">提示</string>
+    <string name="content_simple_confirm_dialog">请注意，这是一个简单的提示性对话框！</string>
+    <string name="lab_submit">确定</string>
+    <string name="tip_warning">警告</string>
+    <string name="content_warning">当前为开发环境，是否切换到真实环境？</string>
+    <string name="lab_change">切换</string>
+    <string name="lab_continue">继续</string>
+    <string name="hint_please_input_password">请输入密码</string>
+    <string name="tip_options">选项</string>
+    <string name="tip_router_setting">路线设置</string>
+    <string name="lab_choice">选择</string>
+    <string name="tip_update">版本更新</string>
+    <string name="content_downloading">正在下载中，请稍后...</string>
+    <string name="tip_download_finished">下载完毕!</string>
+    <string name="lab_cancel">取消</string>
+    <string name="content_wait_for_receive_data">数据接收中，请稍后...</string>
+    <string name="lab_edit">编辑</string>
+    <string name="lab_add">添加</string>
+    <string name="lab_delete">删除</string>
+    <string name="lab_update">更新</string>
+    <string name="tip_please_select_transfer_type">选择一种切换方式</string>
+    <string name="tip_signature">签名</string>
+    <string name="lab_clear">清除</string>
+    <string name="tip_loading_message">正在加载数据...</string>
+    <string name="tip_start">开始</string>
+    <string name="tip_stop">停止</string>
+
+    <!--MaterialProgressBar-->
+    <string name="framework_implementation">Framework Implementation</string>
+    <string name="library_implementation">Library Implementation</string>
+    <string name="library_implementation_tinted">Library Implementation (Tinted)</string>
+    <string name="determinate_horizontal_progress">Determinate Horizontal ProgressBar</string>
+    <string name="indeterminate_horizontal_progress">Indeterminate Horizontal ProgressBar</string>
+    <string name="determinate_circular_progress">Determinate Circular ProgressBar</string>
+    <string name="indeterminate_circular_progress">Indeterminate Circular ProgressBar</string>
+    <string name="toolbar_progress">ProgressBar on Toolbar</string>
+    <string name="horizontal_progress_toolbar">Horizontal</string>
+    <string name="indeterminate_horizontal_progress_toolbar">Indeterminate Horizontal</string>
+    <string name="not_available"><i>(Not Available)</i></string>
+
+    <string name="determinate_circular_title">Determinate Circular Sample</string>
+    <string name="normal_progress">Normal Style</string>
+    <string name="normal_tinted_progress">Normal Style (Tinted)</string>
+    <string name="dynamic_progress">Dynamic Style</string>
+    <string name="dynamic_tinted_progress">Dynamic Style (Tinted)</string>
+
+    <string name="circularImageView_item_xml_circle_title">剪裁为圆形+边框+点击效果</string>
+    <string name="circularImageView_item_xml_oval_title">剪裁为椭圆形+边框+点击效果</string>
+    <string name="circularImageView_item_xml_round_rect_title">剪裁为圆角矩形+边框+点击效果</string>
+
+    <string name="circularImageView_modify_tip">可以通过右上角的按钮动态修改下图的效果</string>
+    <string name="circularImageView_modify_1">改变边框颜色与宽度</string>
+    <string name="circularImageView_modify_2">改变选中态边框颜色与宽度</string>
+    <string name="circularImageView_modify_3">改变选中态 Mask 的颜色（带透明度）</string>
+    <string name="circularImageView_modify_4">手工切换选中态</string>
+    <string name="circularImageView_modify_5">改变圆角大小</string>
+    <string name="circularImageView_modify_6">变为圆形</string>
+    <string name="circularImageView_modify_7">变为椭圆形</string>
+    <string name="circularImageView_modify_8">禁止使用touchSelect态</string>
+    <string name="circularImageView_modify_9">重置为初始态</string>
+
+    <!--PhotoPicker-->
+    <string name="pick_photo">选择图片</string>
+    <string name="pick_photo_without_camera">选择图片（不带拍照按钮且点击不预览图片）</string>
+    <string name="pick_one_photo">选择单张图片</string>
+    <string name="pick_photo_gif">选择gif图片</string>
+    <string name="multiple_pick_photo">多次进入PhotoPicker选择图片</string>
+
+    <!--下拉刷新-->
+    <string name="item_example_number_title">第%02d条数据</string>
+    <string name="item_example_number_abstract">这是测试的第%02d条数据</string>
+
+    <string name="item_style_theme_orange_abstract">更改为橙色主题颜色</string>
+    <string name="item_style_theme_red_abstract">更改为红色主题颜色</string>
+    <string name="item_style_theme_green_abstract">更改为绿色主题颜色</string>
+    <string name="item_style_theme_blue_abstract">更改为蓝色主题颜色</string>
+    <string name="item_style_content_translation_off">下拉的时候列表内容停留在原位不动</string>
+    <string name="item_style_content_translation_on">下拉的时候列表内容跟随向下偏移</string>
+    <string name="item_style_horizontal_drag_on">打开左右拖动效果</string>
+    <string name="item_style_horizontal_drag_off">关闭左右拖动效果</string>
+    <string name="item_style_spinner_scale">下拉的时候Header的高度跟随变大</string>
+    <string name="item_style_spinner_translation">下拉的时候Header的位置向下偏移</string>
+    <string name="item_style_spinner_behind">下拉的时候Header固定在背后</string>
+    <string name="item_style_spinner_update_on">开启显示上次更新功能</string>
+    <string name="item_style_spinner_update_off">关闭显示上次更新功能</string>
+    <string name="item_style_theme_default_abstract">更改为默认主题颜色</string>
+    <string name="item_style_load_more">上拉加载更多</string>
+    <string name="item_style_bezier_on">下拉的时候绘制贝塞尔曲线背景</string>
+    <string name="item_style_bezier_off">下拉的时候不绘制贝塞尔曲线背景</string>
+    <string name="item_style_app_bar_expand">展开AppBarLayout，变成可伸展头部的页面</string>
+    <string name="item_style_app_bar_collapse">折叠AppBarLayout，变成正常的列表页面</string>
+    <string name="item_style_store_house_english">跟换显示符号为英文</string>
+    <string name="item_style_store_house_chinese">跟换显示符号为中文</string>
+    <string name="item_style_store_house_icon">跟换显示符号为图标</string>
+    <string name="item_style_store_house_brand">跟换显示符号为商标</string>
+
+    <string name="item_head_style_bezier_circle">贝塞尔圆圈</string>
+    <string name="item_head_style_delivery">气球快递</string>
+    <string name="item_head_style_drop_box">掉落盒子</string>
+    <string name="item_head_style_fly_refresh">纸飞机</string>
+    <string name="item_head_style_fun_game_battle_city">战争城市</string>
+    <string name="item_head_style_fun_game_hit_block">打砖块</string>
+    <string name="item_head_style_phoenix">金色校园</string>
+    <string name="item_head_style_store_house">StoreHouse</string>
+    <string name="item_head_style_taurus">飞机起飞</string>
+    <string name="item_head_style_water_drop">小水滴</string>
+    <string name="item_head_style_wave_swipe">全屏水滴</string>
+
+    <!--CookieBar-->
+    <string name="cookie_title">这是一个标题</string>
+    <string name="cookie_message">这里是提示信息！这里是提示信息！这里是提示信息！这里是提示信息！这里是提示信息！</string>
+    <string name="cookie_action">点击一下</string>
+
+    <string name="tabSegment_mode_general">简单文字</string>
+    <string name="tabSegment_mode_bottom_indicator">文字 + 底部 indicator</string>
+    <string name="tabSegment_mode_top_indicator">文字 + 顶部 indicator</string>
+    <string name="tabSegment_mode_indicator_with_content">文字 + indicator 长度不要跟随内容长度</string>
+    <string name="tabSegment_mode_left_icon_and_auto_tint">文字 + icon(支持四个方向) + 自动着色选中态 icon</string>
+    <string name="tabSegment_mode_sign_count">显示红点</string>
+    <string name="tabSegment_mode_icon_change">选中态更换 icon</string>
+    <string name="tabSegment_mode_muti_color">不同 item，不同文字(icon)颜色</string>
+    <string name="tabSegment_mode_change_content_by_index">根据 index 更新 tab 文案</string>
+    <string name="tabSegment_mode_replace_tab_by_index">根据 index 完全替换 tab</string>
+
+
+    <string name="connecting_text">连接中&#8230;</string>
+    <string name="connected_text">连接成功！</string>
+    <string name="connection_error_text">连接失败！</string>
+
+    <!-- Utils 系列界面 -->
+
+    <!-- ColorUtils 颜色工具 -->
+    <string name="color_utils_alpha_title">设置颜色的 alpha 值</string>
+    <string name="color_utils_ratio_title">根据比例，在两个 color 值之间计算出一个 color 值</string>
+    <string name="color_utils_transform_title">将 color 颜色值转换为字符串</string>
+    <string name="color_utils_random_title">获取随机颜色</string>
+
+    <string name="color_utils_square_origin">原始</string>
+    <string name="color_utils_square_alpha">%1$.1f alpha</string>
+
+    <!-- DrawableUtils Drawable 工具 -->
+    <string name="drawable_utils_create_from_view_title">从一个 View 创建 Bitmap</string>
+    <string name="drawable_utils_create_from_view_button">以本界面 Root View 为例</string>
+    <string name="drawable_utils_solid_image_title">创建一张指定大小的纯色图片，支持圆角</string>
+    <string name="drawable_utils_circle_gradient_title">创建一张渐变图片，支持圆角</string>
+    <string name="drawable_utils_tint_color_title">设置 Drawable 的颜色</string>
+    <string name="drawable_utils_separator_title">创建带上分隔线或下分隔线的 Drawable</string>
+    <string name="lab_logout_confirm">是否确认退出？</string>
+    <string name="lab_open_third_app">是否允许页面打开第三方应用?</string>
+</resources>
